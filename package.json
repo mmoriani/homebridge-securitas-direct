@@ -1,6 +1,6 @@
 {
   "name": "@ottimis/homebridge-securitas-direct",
-  "version": "0.4.4",
+  "version": "1.0.0",
   "description": "Securitas Direct (Verisure) plugin for homebridge: https://github.com/nfarina/homebridge",
   "license": "MIT",
   "keywords": [
@@ -23,13 +23,13 @@
     "homebridge": ">=0.2.0"
   },
   "dependencies": {
-    "@ottimis/securitas-direct": "^1.2.0"
+    "@ottimis/securitas-direct": "^2.0.1"
   },
   "devDependencies": {
+    "eslint": "^6.7.2",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jest": "^23.1.0",
-    "eslint": "^6.7.2",
     "hap-nodejs": "^0.5.3",
     "jest": "^25.0.0"
   }
